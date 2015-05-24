@@ -5,4 +5,6 @@ Use any language, I used Python, just make sure you have the necessary libraries
  - Fetch the webpage using the hashed message in the URL ("... challenges/13/your_hash")
  - Extract the flag (RegEx very useful again), but at this point you can manually extract it from the HTML
 
- 
+
+PYTHON CODE available at 
+https://github.com/dBizzle/ringzer0team-CTF/blob/master/challenge13/hashme.py
