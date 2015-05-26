@@ -1,0 +1,4 @@
+put anything in the username
+
+in the password enter : 
+	' OR '1'='1
