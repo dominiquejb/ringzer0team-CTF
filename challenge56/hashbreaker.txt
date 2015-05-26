@@ -12,4 +12,4 @@ Use any language, I used Python, just make sure you have the necessary libraries
 
 
 PYTHON CODE available at 
-https://github.com/dBizzle/ringzer0team-CTF/blob/master/challenge56/hashbreaker.py
+https://github.com/dBizzle/ringzer0team-CTF/blob/master/challenge56/ihatemaths.py

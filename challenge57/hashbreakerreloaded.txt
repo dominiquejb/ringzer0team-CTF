@@ -1,0 +1,17 @@
+Like the previous hashbreaker challenge, I assumed that it is an SHA1 hash and that the original message is
+actually a number with 4 digits (between 1000-9999 inclusively).
+Therefore, it is easy to brute-force (worst-case scenario = 9000 tries),
+we just have to figure out how the salt is used in the hash
+
+Use any language, I used Python, just make sure you have the necessary libraries to :
+ - Fetch the HTML content of a webpage using your PHPSESSID cookie (because you need to be logged in to access it)
+ - Extract the hash from the webpage
+ - Brute force each possibility to compare it to the hash (sha1-hash each number between 1000-9999)
+    - Try different possibilities of salt concatenation for every number (ex: number+salt, salt+number, etc.)
+    - Answer will be the number itself, break the loop to continue
+ - Fetch the webpage using the answer in the URL ("... challenges/57/result_value"), still using PHPSESSID cookie
+ - Extract the flag (RegEx very useful again), but at this point you can manually extract it from the HTML if you print it
+
+
+PYTHON CODE available at 
+https://github.com/dBizzle/ringzer0team-CTF/blob/master/challenge57/hashbreakerreloaded.py
