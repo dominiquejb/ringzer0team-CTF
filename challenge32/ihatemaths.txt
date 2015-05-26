@@ -1,0 +1,12 @@
+Use any language, I used Python, just make sure you have the necessary libraries to : 
+ - Fetch the HTML content of a webpage using your PHPSESSID (because you need to be logged in to access it)
+ - Extract the equation string (Regular Expressions are very useful for this)
+ - Extract each value from the equation (decimalValue + hexValue - binaryValue)
+ - Compute the result value by converting the hex and binary into decimal
+	 - ex : value = decimal + int(theHexString, 0) - int(theBinaryString, 2)
+ - Fetch the webpage using the hashed message in the URL ("... challenges/32/result_value"), still using PHPSESSID
+ - Extract the flag (RegEx very useful again), but at this point you can manually extract it from the HTML if you print it
+
+
+PYTHON CODE available at 
+https://github.com/dBizzle/ringzer0team-CTF/blob/master/challenge32/ihatemaths.py

@@ -1,0 +1,10 @@
+Use any language, I used Python, just make sure you have the necessary libraries to : 
+ - Fetch the HTML content of a webpage using your PHPSESSID (because you need to be logged in to access it)
+ - Extract the message (Regular Expressions are very useful for this)
+ - hash the message with SHA512 hexdigest
+ - Fetch the webpage using the hashed message in the URL ("... challenges/13/your_hash")
+ - Extract the flag (RegEx very useful again), but at this point you can manually extract it from the HTML
+
+
+PYTHON CODE available at 
+https://github.com/dBizzle/ringzer0team-CTF/blob/master/challenge13/hashme.py
